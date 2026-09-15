@@ -221,7 +221,7 @@ AI & Deployment
 
 ` Data Analytics`
 
-` BI`
+`BI`
 
 </div>
 
