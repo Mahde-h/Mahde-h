@@ -43,7 +43,7 @@ A compact, custom-built Generative Pre-trained Transformer (GPT) language model 
 
 #### Financial & Business Analytics
 * **Deposit Forecasting & Branch Risk Analysis** — Geospatial and time-series analytical framework designed to forecast deposit trends and assess branch location risk indicators.
-* **Loan Regression** — Statistical regression modeling built to analyze loan datasets, evaluate key risk metrics, and project financial trendsز
+* **Loan Regression** — Statistical regression modeling built to analyze loan datasets, evaluate key risk metrics, and project financial trends.
 
 #### Web Applications & Platforms
 * **InternConnect Jordan Platform** — An AI-powered platform designed for skill mapping, automated feedback analysis, and personalized internship recommendationsز
