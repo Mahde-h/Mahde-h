@@ -50,7 +50,7 @@ My goal is to leverage **data-driven insights, predictive modeling, and scalable
 ### ⚙️ Tools & Databases
 
 <p>
-<img src="https://skillicons.dev/icons?i=supabase,git,github,jupyter,vscode&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=supabase,git,github,vscode&theme=dark"/>
 </p>
 
 `Google Colab`
