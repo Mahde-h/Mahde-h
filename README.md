@@ -20,7 +20,7 @@
 
 ---
 
-## 🧠 About Me
+##  About Me
 
 I am a **Data Science Graduate** with hands-on experience in:
 
@@ -30,9 +30,9 @@ My goal is to leverage **data-driven insights, predictive modeling, and scalable
 
 ---
 
-## 🛠️ Technical Skills
+##  Technical Skills
 
-### 💻 Languages
+###  Languages
 
 <p>
 <img src="https://skillicons.dev/icons?i=python,r,cpp,js&theme=dark"/>
@@ -57,11 +57,11 @@ My goal is to leverage **data-driven insights, predictive modeling, and scalable
 
 ---
 
-# 🚀 Featured Projects
+#  Featured Projects
 
-## 🤖 AI & Machine Learning
+##  AI & Machine Learning
 
-### 😷 Face Mask Detection
+###  Face Mask Detection
 
 **Transfer Learning • Fine-Tuning • Computer Vision**
 
@@ -69,12 +69,12 @@ A high-performance Computer Vision system built using **Transfer Learning** and 
 
 **Technical Highlights**
 
-* 🧠 MobileNetV2 pretrained on ImageNet
-* 🔧 Transfer Learning for efficient feature extraction
-* 🎯 Fine-Tuning of selected top layers
-* 🖼️ Image augmentation for better generalization
-* 👁️ OpenCV integration
-* 📈 Precision, Recall & F1 evaluation
+*  MobileNetV2 pretrained on ImageNet
+*  Transfer Learning for efficient feature extraction
+*  Fine-Tuning of selected top layers
+*  Image augmentation for better generalization
+*  OpenCV integration
+*  Precision, Recall & F1 evaluation
 
 **Tech Stack**
 
@@ -82,7 +82,7 @@ A high-performance Computer Vision system built using **Transfer Learning** and 
 
 ---
 
-### 🧠 TinyGPT — LLM Engineering
+###  TinyGPT — LLM Engineering
 
 **PyTorch • Transformers • NLP • Deep Learning**
 
@@ -90,12 +90,12 @@ A compact **Generative Pre-trained Transformer (GPT)** language model implemente
 
 **Technical Highlights**
 
-* ⚡ Multi-Head Self-Attention
-* 📍 Positional Embeddings
-* 🧩 Transformer Decoder Layers
-* 🔒 Causal Masking
-* 📐 Layer Normalization
-* 🧪 Custom Transformer architecture
+*  Multi-Head Self-Attention
+*  Positional Embeddings
+*  Transformer Decoder Layers
+*  Causal Masking
+*  Layer Normalization
+*  Custom Transformer architecture
 
 **Tech Stack**
 
@@ -103,7 +103,7 @@ A compact **Generative Pre-trained Transformer (GPT)** language model implemente
 
 ---
 
-### 📄 Invoice Recognition
+###  Invoice Recognition
 
 An automated document processing system utilizing **Computer Vision and OCR** techniques to extract key text fields and structured data from invoices.
 
@@ -113,7 +113,7 @@ An automated document processing system utilizing **Computer Vision and OCR** te
 
 ---
 
-### 🧠 Stroke Classification
+###  Stroke Classification
 
 Predictive modeling and risk-factor assessment for stroke probability using supervised Machine Learning algorithms.
 
@@ -123,17 +123,17 @@ Predictive modeling and risk-factor assessment for stroke probability using supe
 
 ---
 
-# 💰 Financial & Business Analytics
+#  Financial & Business Analytics
 
-### 🏦 Deposit Forecasting & Branch Risk Analysis
+###  Deposit Forecasting & Branch Risk Analysis
 
 A geospatial and time-series analytical framework designed to:
 
-* 📈 Forecast deposit trends
-* 🗺️ Analyze branch locations
-* ⚠️ Assess branch risk indicators
-* 🔍 Identify geographical patterns
-* 📊 Support data-driven branch decisions
+*  Forecast deposit trends
+*  Analyze branch locations
+*  Assess branch risk indicators
+*  Identify geographical patterns
+*  Support data-driven branch decisions
 
 **Tech Stack**
 
@@ -141,7 +141,7 @@ A geospatial and time-series analytical framework designed to:
 
 ---
 
-### 💳 Loan Regression
+###  Loan Regression
 
 Statistical regression modeling designed to analyze loan datasets, evaluate key risk metrics, and project financial trends.
 
@@ -151,21 +151,25 @@ Statistical regression modeling designed to analyze loan datasets, evaluate key 
 
 ---
 
-# 🌐 Web Applications & Platforms
+#  Web Applications & Platforms
 
-### 🎓 InternConnect Jordan
+###  InternConnect Jordan
 
 An AI-powered platform designed to improve the connection between students and internship opportunities through **skill mapping, automated feedback analysis, and personalized recommendations**.
 
 **Core Areas**
 
-* 👨‍🎓 Student internship discovery
-* 🏢 Company opportunities
-* 🧠 Skill mapping
-* 📊 Application management
-* ⭐ Feedback & ratings
-* 🔔 Notifications
-* 🔐 Role-based authentication
+*  Student internship discovery
+*  Company opportunities
+*  AI-Powered Skill Mapping
+*  Application management
+*  Feedback & ratings
+*  Notifications
+*  Role-based authentication
+*  AI-Based Internship Recommendations
+*  Automated Feedback Analysis
+*  Student Progress Tracking
+*  شه
 
 **Tech Stack**
 
