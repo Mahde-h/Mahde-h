@@ -1,7 +1,7 @@
 # Hi, I'm Mahde Hanandeh
 
 ### About Me & Professional Goal
-I am a **Data Science Graduate** with hands-on experience in Data Analytics, Business Intelligence, Machine Learning, and AI[cite: 1]. 
+I am a **Data Science Graduate** with hands-on experience in Data Analytics, Business Intelligence, Machine Learning, and AI
 
 My goal is to leverage data-driven insights, advanced predictive modeling, and scalable AI solutions to solve complex business problems, optimize decision-making processes, and deliver impactful analytics within high-growth data teams.
 
