@@ -39,15 +39,15 @@ My goal is to leverage **data-driven insights, predictive modeling, and scalable
 <img src="https://img.shields.io/badge/SQL-8B5CF6?style=flat-square&logo=postgresql&logoColor=white"/>
 </p>
 
-### 📊 Data & Business Intelligence
+###  Data & Business Intelligence
 
 `Tableau` `Power BI` `Excel` `Pandas` `NumPy` `Matplotlib`
 
-### 🤖 Machine Learning & AI
+###  Machine Learning & AI
 
 `Scikit-learn` `PyTorch` `TensorFlow` `Deep Learning` `NLP` `RAG` `MLflow`
 
-### ⚙️ Tools & Databases
+###  Tools & Databases
 
 <p>
 <img src="https://skillicons.dev/icons?i=supabase,git,github,vscode&theme=dark"/>
@@ -177,7 +177,7 @@ An AI-powered platform designed to improve the connection between students and i
 
 ---
 
-# 📊 GitHub Analytics
+#  GitHub Analytics
 
 <div align="center">
 
@@ -189,7 +189,7 @@ An AI-powered platform designed to improve the connection between students and i
 
 ---
 
-# 📈 My Data Science Journey
+#  My Data Science Journey
 
 <div align="center">
 
@@ -215,27 +215,29 @@ AI & Deployment
 
 ---
 
-# 🎯 Current Focus
+#  Current Focus
 
 <div align="center">
 
-`🤖 Artificial Intelligence`
+` Artificial Intelligence`
 
-`🧠 Deep Learning`
+` Deep Learning`
 
-`💬 NLP & Transformers`
+` NLP & Transformers`
 
-`🔎 RAG Systems`
+` RAG Systems`
 
-`⚙️ MLOps`
+` MLOps`
 
-`📊 Data Analytics`
+` Data Analytics`
+
+` BI
 
 </div>
 
 ---
 
-# 📫 Connect With Me
+#  Connect With Me
 
 <div align="center">
 
