@@ -29,12 +29,11 @@ A high-performance Computer Vision system built using **Transfer Learning** and 
   * **Dataset & Augmentation:** Trained on a diverse image dataset of masked and unmasked faces using data augmentation techniques (rotation, scaling, flipping) to prevent overfitting and improve real-world generalization.
 * **Tech Stack:** `Python` | `TensorFlow/Keras` | `MobileNetV2` | `OpenCV` | `Transfer Learning` | `Deep Learning`
 
-##### TinyGPT (MLOps & LLM Engineering)
-A compact, custom-built Generative Pre-trained Transformer (GPT) language model implemented from scratch in PyTorch, integrated with **MLflow** to demonstrate end-to-end Large Language Model (LLM) engineering and MLOps practices.
+##### TinyGPT ( LLM Engineering)
+A compact, custom-built Generative Pre-trained Transformer (GPT) language model implemented from scratch in PyTorchز
 
 * **Key Features & Technical Highlights:**
   * **Custom Architecture:** Implemented standard Transformer decoder layers including Multi-Head Self-Attention, positional embeddings, layer normalization, and causal masking.
-  * **MLOps Tracking:** End-to-end experiment tracking, metric logging, and model versioning using **MLflow**.
 * **Tech Stack:** `Python` | `PyTorch` | `MLflow` | `Transformers` | `NLP` | `Deep Learning`
 
 ##### Other ML Projects
