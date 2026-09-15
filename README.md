@@ -175,17 +175,7 @@ An AI-powered platform designed to improve the connection between students and i
 
 `Next.js` `TypeScript` `Supabase` `PostgreSQL` `AI`
 
----
 
-#  GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Mahde-h&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=A78BFA&text_color=F8FAFC&ring_color=8B5CF6" width="48%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahde-h&layout=compact&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=F8FAFC" width="48%" />
-
-</div>
 
 ---
 
