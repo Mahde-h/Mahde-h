@@ -48,18 +48,11 @@ A compact, custom-built Generative Pre-trained Transformer (GPT) language model 
 #### Web Applications & Platforms
 * **InternConnect Jordan Platform** — An AI-powered platform designed for skill mapping, automated feedback analysis, and personalized internship recommendationsز
 
----
 
-### GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mahde-h&show_icons=true&theme=tokyonight" alt="Mahde's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahde-h&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
-</div>
 
 ---
 
 ### Connect with Me
 
 * **LinkedIn:** [Mahde Hanandeh](https://www.linkedin.com/in/mahde-hanandeh-44685631a/)
-* **Email:** [mahdehanandeh9@gmail.com](mailto:mahdehanandeh9@gmail.com)[cite: 1]
+* **Email:** [mahdehanandeh9@gmail.com](mailto:mahdehanandeh9@gmail.com)
