@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+    Face REC | AI Mask Detection
+</title>
+
+<link
+    rel="stylesheet"
+    href="style.css"
+>
+
+
+</head>
+
+<body>
+
+
+<div class="app">
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+
+<div class="logo">
+
+    <span class="logo-icon">
+
+        <svg width="30" height="30" viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round">
+
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+
+            <path d="M9 12h6"/>
+
+            <path d="M9 9h6"/>
+
+        </svg>
+
+    </span>
+
+    <span>
+        FACE REC
+    </span>
+
+</div>
+
+<div
+ class="system-status"> 
+ <span class="status-dot">
+
+ </span> AI SYSTEM 
+</div>
+
+
+
+
+
+
+</header>
+
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero">
+
+            <h1>
+                Face Mask Detection
+            </h1>
+
+            <p>
+                Real-time AI-powered face mask detection
+            </p>
+
+        </section>
+
+
+        <!-- ================= CAMERA ================= -->
+
+        <section class="camera-section">
+
+            <div class="camera-container">
+
+                <!-- Camera -->
+
+                <video
+                    id="video"
+                    autoplay
+                    playsinline
+                ></video>
+
+                <img id="uploadedImage" alt="Uploaded photo">
+
+
+                <!-- Hidden canvas used
+                     to capture frames -->
+
+                <canvas
+                    id="canvas"
+                ></canvas>
+
+
+                <!-- Visible canvas used
+                     to draw face boxes -->
+
+                <canvas
+                    id="overlayCanvas"
+                ></canvas>
+
+
+                <!-- Camera corners -->
+
+                <div class="camera-overlay">
+
+                    <div class="corner top-left"></div>
+
+                    <div class="corner top-right"></div>
+
+                    <div class="corner bottom-left"></div>
+
+                    <div class="corner bottom-right"></div>
+
+                </div>
+
+
+                <!-- Camera status -->
+
+                <div class="camera-status">
+
+                    <span></span>
+
+                    CAMERA ACTIVE
+
+                </div>
+
+            </div>
+
+
+            <!-- Buttons -->
+
+            <div class="controls">
+
+                <button
+                    id="startBtn"
+                    type="button"
+                >
+                    🎥 Start Camera
+                </button>
+
+
+
+                <button
+                 id="uploadBtn"
+                 type="button" 
+                 >
+                  📷 Upload Photo
+                </button>
+
+
+                <button
+                    id="stopBtn"
+                    type="button"
+                >
+                    ⏹ Stop Camera
+                </button>
+
+
+                <input
+                 type="file"
+                  id="photoInput"
+                   accept="image/*" 
+                   hidden >
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESULTS ================= -->
+
+        <section class="results">
+
+            <h2>
+                Detection Results
+            </h2>
+
+
+            <div class="result-grid">
+
+
+              <!-- Faces -->
+
+<div class="result-card">
+
+
+<div class="result-icon">
+    <svg width="28" height="28" viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         stroke-linecap="round"
+         stroke-linejoin="round">
+
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+        <circle cx="9" cy="7" r="4"/>
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+
+    </svg>
+</div>
+
+
+<div>
+
+    <p>
+        Faces Detected
+    </p>
+
+    <h3 id="faces">
+        0
+    </h3>
+
+</div>
+
+
+</div>
+
+<!-- Mask -->
+
+<div class="result-card">
+
+
+<div class="result-icon">
+    <svg width="28" height="28" viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         stroke-linecap="round"
+         stroke-linejoin="round">
+
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        <path d="m9 12 2 2 4-4"/>
+
+    </svg>
+</div>
+
+
+<div class="status-content">
+
+    <p>
+        Mask Status
+    </p>
+
+
+    <div id="maskStatus">
+        Waiting...
+    </div>
+
+</div>
+
+
+</div>
+
+<!-- Confidence -->
+
+<div class="result-card">
+
+
+<div class="result-icon">
+    <svg width="28" height="28" viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         stroke-linecap="round"
+         stroke-linejoin="round">
+
+        <circle cx="12" cy="12" r="9"/>
+        <circle cx="12" cy="12" r="5"/>
+        <circle cx="12" cy="12" r="1"/>
+
+    </svg>
+</div>
+
+
+<div>
+
+    <p>
+        Confidence
+    </p>
+
+
+    <h3 id="confidence">
+        0%
+    </h3>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            Face REC • AI Face Mask Detection
+        </p>
+
+    </footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
